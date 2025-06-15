@@ -1,1 +1,1 @@
-# cognitive_services
+# Azure services examples
