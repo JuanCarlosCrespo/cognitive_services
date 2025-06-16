@@ -1,0 +1,83 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folder
+.vs/
+
+# Visual Studio Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider IDE files
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish output
+publish/
+out/
+
+# Others
+*.dbmdl
+*.pdb
+*.cache
+*.config
+*.db
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Test results
+TestResults/
+*.TestResults/
+
+# Entity Framework
+Migrations/
+
+# Local history for some extensions
+.localhistory/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+.*crunch*.local.xml
+
+# SonarQube
+.sonar/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
