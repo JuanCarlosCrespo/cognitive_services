@@ -1,5 +1,4 @@
-﻿// Replace the placeholders with your own values
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using WebModerator;
 using WebModerator.Enums;
 using WebModerator.Models;
