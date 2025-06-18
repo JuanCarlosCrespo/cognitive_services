@@ -227,7 +227,9 @@ namespace WebModerator
             Console.WriteLine(finalAction);
             foreach (var res in actionResult)
             {
+                if (res.Value == Action.Reject) Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Category: {res.Key}, Action: {res.Value}");
+                Console.ResetColor();
             }
 
             return new Decision(finalAction, actionResult);
